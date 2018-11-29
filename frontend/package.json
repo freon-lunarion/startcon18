@@ -4,7 +4,8 @@
   "description": "IT Helpdesk integrate with Freelancer API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx http-server",
+    "lint": "npx eslint src/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,17 @@
   "keywords": [
     "ITHelpDesk"
   ],
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "http-server": "^0.11.1"
+  },
+  "engines": {
+    "node": ">=9.0.0",
+    "npm": ">=6.0.0"
+  },
   "author": "team",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
 }
