@@ -1,0 +1,135 @@
+  <html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">sos.IT</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#">Profile</a></li>
+              </ul>
+        
+              <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Profile</a></li>
+              </ul>
+              <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+          </nav>
+          <div class="section " id="index-banner">
+            <div class="container">
+              
+        
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m12">
+                  <div class="card">
+                    <div class="card-content">
+                      <span class="card-title">Post a Job</span>
+                      <div class="row">
+                        <form action="" class="col s12">
+
+                          <div class="input-field col s12 m6">
+                              <select>
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Windows</option>
+                                  <option value="2">MacOs</option>
+                                  <option value="3">Linux</option>
+                                  
+                                </select>
+                            <label for="first_name">What's Your Operating System</label>
+                          </div>
+                          <div class="input-field col s12 m6">
+                              <select>
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Spreadsheet/Data Visualization</option>
+                                  <option value="2">Word Processing/Publishing</option>
+                                  <option value="3">Presentation</option>
+                                  <option value="4">Mailing</option>
+                                  <option value="5">Photo Correction/Editing</option>
+                                  <option value="9">Virus and Malware</option>
+                                  <option value="99">Others</option>
+                                  
+                                </select>
+                            <label for="first_name">What's your problem</label>
+                          </div>
+
+                          <div class="input-field col s12 m12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="first_name">Decription of Problem</label>
+                          </div>
+
+                          <div class="input-field col s12 m6">
+                              <input type="number" id="test5" min="1" max="9999" />  
+                              <label for="first_name">Budget (AUD)</label>
+                            </div>
+                        </form>
+                        <div class="center-align">
+                            <a class="waves-effect waves-light btn grey lighten-5 black-text">Cancel</a>
+                            <a class="waves-effect waves-light btn">Submit</a>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <footer class="page-footer orange">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Company Bio</h5>
+                  <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        
+        
+                </div>
+                <div class="col l3 s12">
+                  <h5 class="white-text">Settings</h5>
+                  <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                  </ul>
+                </div>
+                <div class="col l3 s12">
+                  <h5 class="white-text">Connect</h5>
+                  <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+              </div>
+            </div>
+          </footer>
+        
+        
+          <!--  Scripts-->
+          <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+          <script src="js/materialize.js"></script>
+          <script src="js/init.js"></script>
+          <script >
+          $(document).ready(function(){
+            $('select').formSelect();
+          })</script>
+          </body>
+    </body>
+</html>
