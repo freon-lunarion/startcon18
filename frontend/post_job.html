@@ -22,22 +22,20 @@
             </div>
           </nav>
           <div class="section " id="index-banner">
+            
             <div class="container">
-              
-        
-            </div>
-
-            <div class="container">
+              <h3>Post a job</h3>
+              <hr>
               <div class="row">
                 <div class="col s12 m12">
                   <div class="card">
                     <div class="card-content">
-                      <span class="card-title">Post a Job</span>
+
                       <div class="row">
                         <form action="" class="col s12">
 
                           <div class="input-field col s12 m6">
-                              <select>
+                              <select id="slc_os">
                                   <option value="" disabled selected>Choose your option</option>
                                   <option value="1">Windows</option>
                                   <option value="2">MacOs</option>
@@ -47,7 +45,7 @@
                             <label for="first_name">What's Your Operating System</label>
                           </div>
                           <div class="input-field col s12 m6">
-                              <select>
+                              <select id="slc_problem">
                                   <option value="" disabled selected>Choose your option</option>
                                   <option value="1">Spreadsheet/Data Visualization</option>
                                   <option value="2">Word Processing/Publishing</option>
@@ -62,18 +60,18 @@
                           </div>
 
                           <div class="input-field col s12 m12">
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <textarea id="textarea1" id="txt_problem "class="materialize-textarea"></textarea>
                             <label for="first_name">Decription of Problem</label>
                           </div>
 
                           <div class="input-field col s12 m6">
-                              <input type="number" id="test5" min="1" max="9999" />  
+                              <input type="number"  id="nm_budget" min="1" max="9999" />  
                               <label for="first_name">Budget (AUD)</label>
                             </div>
                         </form>
                         <div class="center-align">
-                            <button class="waves-effect waves-light btn grey lighten-5 black-text">Cancel</button>
-                            <button class="waves-effect waves-light btn">Post</button>
+                            <button id="btn_cancel" class="waves-effect waves-light btn grey lighten-5 black-text">Cancel</button>
+                            <button id="btn_post" class="waves-effect waves-light btn">Post</button>
                         </div>
                         
                       </div>
